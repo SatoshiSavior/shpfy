@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 const shopName = 'medicalsupplyx.myshopify.com'; // Replace with your actual shop name
 const accessToken = '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'; // Replace with your permanent access token
-const webhookUrl = 'https://db49-2601-586-8300-dcf0-893e-42d4-13bf-fd3.ngrok.io/webhook/orders-create';
+const webhookUrl = 'https://shopify-recent-activity.herokuapp.com/webhook/orders-create';
 
 const shopify = new Shopify({
   shopName: shopName,
