@@ -1,0 +1,20 @@
+{
+  "name": "shopify_recent_activity_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/koa-shopify-webhooks": "^5.0.6",
+    "@shopify/shopify-api": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.5",
+    "shopify-api-node": "^3.12.3"
+  }
+}
