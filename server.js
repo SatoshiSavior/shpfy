@@ -32,7 +32,9 @@ app.post('/webhook/orders-create', (req, res) => {
   console.log('Received webhook:', req.body);
   res.sendStatus(200);
 });
-
+app.get('/', (req, res) => {
+  res.send('Shopify Recent Activity App is running!');
+});
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
   createWebhook();
